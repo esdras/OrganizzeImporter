@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Esdras Mayrink"]
   s.email       = ["falecom@oesdras.com.br"]
-  s.homepage    = "oesdras.com.br"
+  s.homepage    = "http://oesdras.com.br"
   s.summary     = %q{A lib to parse files and convert them into a default structure}
   s.description = %q{Parses a set of files of several formats and returns all attributes}
 
