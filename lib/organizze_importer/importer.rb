@@ -14,7 +14,7 @@ module OrganizzeImporter
       parser.parse!
     end
 
-    delegate :collection, :to => :parser
+    delegate :collection, :main_fields, :collection_fields, :to => :parser
 
     def ofx?
       file_extension == "ofx"
