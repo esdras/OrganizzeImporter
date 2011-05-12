@@ -1,5 +1,4 @@
 @contributing
-
 git clone git@github.com:esdras/OrganizzeImporter.git
 bundle install
 
