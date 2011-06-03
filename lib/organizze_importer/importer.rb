@@ -40,7 +40,7 @@ module OrganizzeImporter
 
     def guess_if_is_file_or_path(file_or_path)
       if file_or_path.is_a?(File) || file_or_path.is_a?(Tempfile)
-        file_or_path 
+        file_or_path
       else
         File.open(file_or_path, 'r')
       end
