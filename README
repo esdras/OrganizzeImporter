@@ -1,0 +1,46 @@
+@contributing
+git clone git@github.com:esdras/OrganizzeImporter.git
+cd OrganizzeImporter
+bundle install
+
+@installation
+git clone git@github.com:esdras/OrganizzeImporter.git
+cd OrganizzeImporter
+rake install
+
+@usage
+require 'organizze_importer'
+importer = OrganizzeImporter::Importer.new(ofx_file)
+importer.parse!
+puts importer.balance
+importer.collection.each do |transaction|
+  puts transaction.amount
+end
+
+You can check for the fields that are avalaible through the
+methods:
+- main_fields # => The main fields that the parser extracted from the file
+- collection_fields # The fields for each entry of the table extracted from the file (may change in the future as we add support for more file formats)
+
+# DETAILS FOR OFX FILES
+Account Attributes
+- balance
+- bank_id
+- currency
+- id
+- transactions
+- type
+- collection
+
+Transaction Attributes
+- amount
+- amount_in_pennies
+- check_number
+- fit_id
+- memo
+- name
+- payee
+- posted_at
+- ref_number
+- type
+# END DETAILS FOR OFX FILES

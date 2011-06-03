@@ -1,0 +1,115 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+ <BANKMSGSRSV1>
+  <STMTTRNRS>
+   <STATUS>
+    <CODE>0
+    <SEVERITY>INFO
+   </STATUS>
+   <STMTRS>
+   <CURDEF>BRL
+   <BANKTRANLIST>
+    <STMTTRN>
+     <NAME> Tarifa Pacote De ServiçOs - Referente A 27/12/2010 #610902592398
+     <TRNAMT>-3.80
+     <DTPOSTED>20101227000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> Compra Com CartãO - 24/12 13:47 Giassi Supermerca #000000149665
+     <TRNAMT>-22.98
+     <DTPOSTED>20101224000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> Compra Com CartãO - 21/12 18:06 Hugo Concept #000000365213
+     <TRNAMT>-75.00
+     <DTPOSTED>20101221000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> Compra Com CartãO - 21/12 14:11 Usina De Massas E #000000251068
+     <TRNAMT>-18.00
+     <DTPOSTED>20101221000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> Compra Com CartãO - 21/12 13:41 Ellus #000000149290
+     <TRNAMT>-269.00
+     <DTPOSTED>20101221000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> TransferêNcia On Line - 20/12 3226 1372-2 Transrio Trans #226000001372
+     <TRNAMT>1,000.00
+     <DTPOSTED>20101220000000[-8:PST]
+     <MEMO>Transfer
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> Pagto Conta Telefone - Tim Celular S.A. #000000122001
+     <TRNAMT>-112.43
+     <DTPOSTED>20101220000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> AplicaçãO PoupançA - 20/12 0407 10025874-3 Priscila Nunes #000010025874
+     <TRNAMT>-500.00
+     <DTPOSTED>20101220000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> Compra Com CartãO - 30/11 21:35 Hugo Concept #000000177707
+     <TRNAMT>-498.00
+     <DTPOSTED>20101130000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> TransferêNcia On Line - 27/11 3226 1372-2 Transrio Trans #226000001372
+     <TRNAMT>1,000.00
+     <DTPOSTED>20101129000000[-8:PST]
+     <MEMO>Transfer
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> AplicaçãO PoupançA - 29/11 0407 10025874-3 Priscila Nunes #000010025874
+     <TRNAMT>-500.00
+     <DTPOSTED>20101129000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME> Tarifa Pacote De ServiçOs - Referente A 25/11/2010 #290900324215
+     <TRNAMT>-3.80
+     <DTPOSTED>20101125000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME>teste
+     <TRNAMT>-333.00
+     <DTPOSTED>20090927000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME>Janta Press
+     <TRNAMT>-80.00
+     <DTPOSTED>20090710000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     <STMTTRN>
+     <NAME>Almoço aninha Comas
+     <TRNAMT>-14.00
+     <DTPOSTED>20090710000000[-8:PST]
+     <MEMO>
+    </STMTTRN>
+     </BANKTRANLIST>
+   </STMTRS>
+  </STYMTTRNRS>
+ </BANKMSGSRSV1>
+</OFX>
