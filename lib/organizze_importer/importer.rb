@@ -39,7 +39,7 @@ module OrganizzeImporter
     end
 
     def guess_if_is_file_or_path(file_or_path)
-      if file_or_path.is_a?(File) || file_or_path.is_a?(Tempfile)
+      if file_or_path.respond_to?(:read)
         file_or_path
       else
         File.open(file_or_path, 'r')
@@ -47,7 +47,8 @@ module OrganizzeImporter
     end
 
     def file_extension
-      File.extname(file.original_filename).delete('.').downcase
+      path = file.respond_to?(:original_filename) ? file.original_filename : file.path
+      File.extname(path).delete('.').downcase
     end
 
   end
