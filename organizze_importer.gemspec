@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec'
 
-  s.add_dependency "ofx"
+  s.add_dependency "organizze-ofx"
   s.add_dependency "activesupport"
 
   s.files         = `git ls-files`.split("\n")
